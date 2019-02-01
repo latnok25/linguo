@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FirebasePhoneAuth</string>
+
+    <array name="network">
+        <item>MTN</item>
+        <item>AIRTEL</item>
+        <item>GLO</item>
+        <item>9MOBILE</item>
+    </array>
+
+
+</resources>
