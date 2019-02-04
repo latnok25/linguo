@@ -31,7 +31,6 @@ public class ImportFragment extends AppCompatActivity implements TextToSpeech.On
 
 
         btn = findViewById(R.id.buttonLogout);
-        btn.setOnClickListener((View.OnClickListener) this);
         btn.setEnabled(false);
 
         txt =  findViewById(R.id.editTextPhone);
@@ -124,8 +123,7 @@ public class ImportFragment extends AppCompatActivity implements TextToSpeech.On
                     result == TextToSpeech.LANG_NOT_SUPPORTED) {
 
             } else {
-                Button btnAdd = findViewById(R.id.button);
-                btnAdd.setEnabled(true);
+                btn.setEnabled(true);
 
             }
         } else {

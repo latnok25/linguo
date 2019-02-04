@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FirebasePhoneAuth</string>
+    <string name="app_name">Linguo</string>
 
     <array name="network">
         <item>MTN</item>
